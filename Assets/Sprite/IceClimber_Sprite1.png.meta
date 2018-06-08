@@ -7,6 +7,8 @@ TextureImporter:
     21300004: IceClimber_Sprite1_2
     21300006: IceClimber_Sprite1_3
     21300008: IceClimber_Sprite1_4
+    21300010: IceClimber_Sprite1_5
+    21300012: IceClimber_Sprite1_6
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -166,7 +168,7 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,13 +188,53 @@ TextureImporter:
         width: 13
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 1e5ba697b3ab01c41988a595d04ceb3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceClimber_Sprite1_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 63
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bea4afdc3e2eb44082e8eb9340b74a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceClimber_Sprite1_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 66
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9ac6bf0eef5b54c94d6e3bd1368e97
       vertices: []
       indices: 
       edges: []
