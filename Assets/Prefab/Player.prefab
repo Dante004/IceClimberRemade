@@ -148,7 +148,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grounded: 0
-  speed: 5
   jumpForce: 6
   whatIsGround:
     serializedVersion: 2
@@ -157,6 +156,8 @@ MonoBehaviour:
   jumpTime: 0.5
   jumpTimeCounter: 0
   stoppedJumping: 0
+  speedwalk: 6
+  speedjump: 2.5
 --- !u!212 &212140264396235604
 SpriteRenderer:
   m_ObjectHideFlags: 1

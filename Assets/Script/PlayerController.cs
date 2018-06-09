@@ -10,18 +10,20 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private float groundRadius = 0.2f;
     public bool grounded;
-    public float speed;
+    private float speed;
     public float jumpForce;
     public LayerMask whatIsGround;
     public Transform groundCheck;
     public float jumpTime;
     public float jumpTimeCounter;
     public bool stoppedJumping;
+    public float speedwalk, speedjump;
 
     private void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        speed = speedwalk;
     }
 
     private void Update()
@@ -30,6 +32,7 @@ public class PlayerController : MonoBehaviour
         {
             jumpTimeCounter = jumpTime;
         }
+        speed = grounded ? speedwalk : speedjump;
     }
 
     private void FixedUpdate()
@@ -52,6 +55,7 @@ public class PlayerController : MonoBehaviour
                 rb2d.velocity = new Vector2(rb2d.velocity.x, jumpForce);
                 stoppedJumping = false;
                 anim.SetBool("Ground", false);
+                speed -= 3;
             }
         }
 
