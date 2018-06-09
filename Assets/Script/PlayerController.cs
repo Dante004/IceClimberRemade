@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb2d;
     private Animator anim;
-    private float groundRadius = 0.2f;
+    private float groundRadius = 0.3f;
     public bool grounded;
     private float speed;
     public float jumpForce;
